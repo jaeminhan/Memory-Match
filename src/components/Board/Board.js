@@ -14,7 +14,7 @@ const Board = (props) => {
   // Returns an instantiation of the Title component to map()
   const tiles = props.tiles.map((tile) => (
     // Pass title object as props to the Tile component
-    <Tile {...title} />
+    <Tile {...tile} />
   ))
 
   return (
