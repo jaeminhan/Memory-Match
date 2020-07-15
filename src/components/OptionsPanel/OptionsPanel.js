@@ -10,6 +10,4 @@ const OptionsPanel = (props) => (
   </div>
 )
   
-  
-
 export default OptionsPanel
