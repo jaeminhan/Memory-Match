@@ -25,7 +25,7 @@ class App extends Component {
       const selectedTileIndex = indexOfSelected(tiles, id, color);
       let previousTileIndex = state.previousTileIndex;
 
-      if (toBeClear !== null) {
+      if (toBeCleared !== null) {
         tiles[toBeCleared[0]].selected = false;
         tiles[toBeCleared[1]].selected = false;
         toBeCleared = null
