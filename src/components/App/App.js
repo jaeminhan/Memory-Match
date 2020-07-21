@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import OptionsPanel from '../OptionsPanel'
-import Board from '../Board'
-import { createTiles, indexOfSelected } from '../../misc/utils'
+import OptionsPanel from '../OptionsPanel';
+import Board from '../Board';
+import { createTiles, indexOfSelected } from '../../misc/utils';
 
 import './App.css';
 
@@ -36,6 +36,7 @@ class App extends Component {
       if (previousTileIndex !== null) {
         const previousTile = tiles[previousTileIndex];
         const selectedTile = tiles[selectedTileIndex];
+
         if (previousTile.id !== selectedTile.id && previousTile.color === color) {
           selectedTile.matched = true;
           previousTile.matched = true;
@@ -53,6 +54,7 @@ class App extends Component {
         toBeCleared,
         previousTileIndex
       }
+      
     })
   }
 

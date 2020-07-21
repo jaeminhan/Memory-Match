@@ -1,5 +1,5 @@
-import React from 'react'
-import './TileSelector.css'
+import React from 'react';
+import './TileSelector.css';
 
 const TileSelector = (props) => {
 
@@ -22,4 +22,4 @@ const TileSelector = (props) => {
  )
 }
 
-export default TileSelector
+export default TileSelector;
